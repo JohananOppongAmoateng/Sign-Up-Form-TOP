@@ -1,0 +1,119 @@
+@font-face {
+    font-family: odin-font;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body{
+background-color: white;
+/* font-family: odin-font; */
+}
+
+.flex-box-container {
+    display: flex;
+}
+
+p{
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.odin-logo-container{
+background: url(./images/halie-west-25xggax4bSA-unsplash\(1\).jpg);
+width: 50%;
+height:auto;
+justify-content: center;
+padding-right: 100px;
+align-content: center;
+ }
+ 
+ 
+.odin-logo-area{
+    display: flex;
+    width: 100%; 
+    height: auto;
+    margin-top: 200px;
+  
+    padding-left :100px;  
+    background-color:black;
+    opacity: 0.5; 
+     
+}
+
+.odin-logo{
+    width: 100px;
+    align-self: center;
+   
+   
+} 
+.odin-logo-text{
+    font-family: odin-font;
+    font-size:60px;
+    color: white;
+    padding-top: 20px;
+}
+.sign-up-container{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.intro1{
+    padding-top: 100px;
+    /* padding-left: 50px; */
+}
+
+/* .intro2{
+
+} */
+
+input{
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border: 1px  #e5e7eb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+.intro3{
+    padding-top: 50px;
+}
+.inputs{
+    display: flex;
+
+} 
+
+ #last:focus{
+    border-color:blue ;
+    box-shadow: 10px 5px 5px lightcyan;;
+} 
+/* #password:invalid{
+
+} */
+
+/* .error{
+
+} */
+#submitbtn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #596d48;
+    color:white;
+    padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 10px;
+   padding-bottom:10px;
+   border-radius: 5px;
+   border-color: aliceblue;
+
+}
+
+.log-in{
+    padding-bottom: 200px;
+    
+}
+
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #596d48;
+}
